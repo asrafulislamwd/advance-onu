@@ -596,4 +596,35 @@ body
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+    padding-top: 30px;
+}
+
+.contact-box
+{
+    text-align: center;
+
+}
+
+.contact-icon
+{
+    font-size: 50px;
+}
+
+.contact-box h3
+{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.contact-box h6
+{
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 20px;
+    color: #39393a;
+}
+
+.contact-box:hover
+{
+    color: #87d37c;
 }
